@@ -55,7 +55,7 @@ The Task Management System is a user-friendly web application designed to help y
    SMTP_PASSWORD=<your-smtp-password>
    ```
    and also create a `.env` file in your frontend folder and add the following :
-   ```
+   ```env
    REACT_APP_API_URL=<your-localhost-url-with-port> // http://localhost:(PORT-which-is-in-backend-env-folder)
    ```
 6. Start the development server:
