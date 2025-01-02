@@ -9,10 +9,7 @@ const helmet = require("helmet");
 const dotenv = require("dotenv");
 const app = express();
 
-app.use(cors({
-  origin: 'https://task-management-frontend-virid-xi.vercel.app',
-  credentials: true
-}));
+app.use(cors());
 dotenv.config();
 app.use(helmet());
 app.use(express.json());
