@@ -33,4 +33,4 @@ app.get("/", (req, res) => {
 app.listen(PORT, () => {
   database();
   console.log(`Server is running on http://localhost:${PORT}`);
-}); 
+});
