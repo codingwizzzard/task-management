@@ -11,6 +11,7 @@ const app = express();
 
 app.use(cors({
   origin: 'https://task-management-frontend-virid-xi.vercel.app',  // Your frontend URL
+  credentials: true
 }));
 dotenv.config();
 app.use(helmet());
