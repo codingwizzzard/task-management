@@ -10,7 +10,7 @@ const dotenv = require("dotenv");
 const app = express();
 
 app.use(cors({
-  origin: 'https://task-management-frontend-kgska9qlx-harshs-projects-5a7efdf5.vercel.app',  // Your frontend URL
+  origin: 'https://task-management-frontend-virid-xi.vercel.app',  // Your frontend URL
   credentials: true
 }));
 dotenv.config();
