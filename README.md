@@ -105,4 +105,5 @@ Contributions are welcome! Please follow these steps:
 ---
 
 ## Deployment Links : 
-Backend : https://task-management-mu-blush.vercel.app/
+Backend : https://task-management-mu-blush.vercel.app
+Frontend : https://task-management-frontend-virid-xi.vercel.app
