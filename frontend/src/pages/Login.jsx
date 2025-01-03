@@ -12,7 +12,7 @@ const Login = () => {
     const handleLoginSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('https://task-management-mu-blush.vercel.app/api/users/login', loginData);
+            const response = await axios.post('http://localhost:8000/api/users/login', loginData);
             toast.success("Login successful!");
             localStorage.setItem("token", response.data.token);
             navigate('/view-task'); 
@@ -24,7 +24,7 @@ const Login = () => {
     const handleSignupSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post('https://task-management-mu-blush.vercel.app/api/users/register', signupData);
+            await axios.post('http://localhost:8000/api/users/register', signupData);
             toast.success("Signup successful! You can now log in.");
             setIsLoginView(true); 
         } catch (error) {
