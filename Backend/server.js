@@ -13,7 +13,9 @@ app.use(cors({
   origin: 'http://localhost:3000',
   credentials: true
 }));
+
 dotenv.config();
+
 app.use(helmet());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
