@@ -10,7 +10,7 @@ const dotenv = require("dotenv");
 const app = express();
 
 app.use(cors({
-  origin: 'https://task-management-frontend-lilac.vercel.app',
+  origin: 'http://localhost:3000',
   credentials: true
 }));
 dotenv.config();
